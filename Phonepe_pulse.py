@@ -28,7 +28,7 @@ import plotly.express as px
 
 
 # CONNECTING WITH MYSQL DATABASE
-mydb = mysql.connector.connect(host="localhost", user="root",password="alohomora25", auth_plugin = 'mysql_native_password')
+mydb = mysql.connector.connect(host="localhost",port = 3306, user="root",password="alohomora25", auth_plugin = 'mysql_native_password')
 
 # ==============   /  CONNECT SQL SERVER  /   ACCESS DATA BASE    /   EXECUTE SQL QUERIES      /    ACCESS DATA   /   ========================= #
 import pymysql
