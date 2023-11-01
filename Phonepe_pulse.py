@@ -33,7 +33,12 @@ import plotly.express as px
 # ==============   /  CONNECT SQL SERVER  /   ACCESS DATA BASE    /   EXECUTE SQL QUERIES      /    ACCESS DATA   /   ========================= #
 import pymysql
 
-conn = pymysql.connect(host='localhost', user='root', password='alohomora25', db='phonepe_db')
+conn = pymysql.connectpymysql.connect(
+    host='mydb.cxxgnqrk2rjc.us-east-1.rds.amazonaws.com',
+    user= 'admin',
+    password='Alohomora25',
+    database = 'phonepe_db'
+)
 cursor = conn.cursor()
 
 # # ============================================       /     STREAMLIT DASHBOARD      /       ================================================= #
