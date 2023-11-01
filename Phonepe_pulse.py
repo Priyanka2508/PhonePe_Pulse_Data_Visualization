@@ -33,7 +33,7 @@ import plotly.express as px
 # ==============   /  CONNECT SQL SERVER  /   ACCESS DATA BASE    /   EXECUTE SQL QUERIES      /    ACCESS DATA   /   ========================= #
 import pymysql
 
-conn = pymysql.connectpymysql.connect(
+conn = pymysql.connect(
     host='mydb.cxxgnqrk2rjc.us-east-1.rds.amazonaws.com',
     user= 'admin',
     password='Alohomora25',
